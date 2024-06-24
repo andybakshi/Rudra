@@ -1,8 +1,8 @@
 ﻿using System.Linq.Expressions;
 using System.Reflection;
-using static ExpRT.Core.OperatorSD;
+using static Rudra.Core.OperatorSD;
 
-namespace ExpRT.Core
+namespace Rudra.Core
 {
     internal static class ExpressionBuilderCore
     {

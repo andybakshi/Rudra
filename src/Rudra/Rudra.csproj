@@ -5,16 +5,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>ExpRT</PackageId>
+    <PackageId>Rudra</PackageId>
     <Title>Runtime Expression</Title>
-    <Authors>andybakshi</Authors>
-    <Description>Build Expression in RunTime</Description>
+    <Authors>Abhishek Bakshi</Authors>
+    <Description>Build Expression at RunTime</Description>
     <Copyright>Copyright © 2024</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/andybakshi/ExpRT</RepositoryUrl>
     <NeutralLanguage>aa</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Runtime Expression; Expression at Runtime; Runtime Builder</PackageTags>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

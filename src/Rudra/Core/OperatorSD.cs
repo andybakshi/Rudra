@@ -1,4 +1,4 @@
-﻿namespace ExpRT.Core
+﻿namespace Rudra.Core
 {
     internal static class OperatorSD
     {

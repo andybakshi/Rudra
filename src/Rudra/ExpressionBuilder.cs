@@ -1,7 +1,7 @@
 ﻿using System.Linq.Expressions;
-using static ExpRT.Core.ExpressionBuilderHelper;
+using static Rudra.Core.ExpressionBuilderHelper;
 
-namespace ExpRT
+namespace Rudra
 {
     public static class ExpressionBuilder
     {
