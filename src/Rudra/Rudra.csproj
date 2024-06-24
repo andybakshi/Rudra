@@ -12,7 +12,7 @@
     <Copyright>Copyright © 2024</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/andybakshi/ExpRT</RepositoryUrl>
+    <RepositoryUrl>https://github.com/andybakshi/Rudra</RepositoryUrl>
     <NeutralLanguage>aa</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>Runtime Expression; Expression at Runtime; Runtime Builder</PackageTags>
