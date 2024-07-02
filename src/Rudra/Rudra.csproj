@@ -1,22 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>Rudra</PackageId>
-    <Title>Runtime Expression</Title>
+    <Title>Rudra is a .NET Runtime Expression Builder library that allows developers to create queries at runtime that are not predefined or statically known at compile time.</Title>
     <Authors>Abhishek Bakshi</Authors>
-    <Description>Build Expression at RunTime</Description>
+    <Description>Rudra is a .NET Runtime Expression Builder library that allows developers to create queries at runtime that are not predefined or statically known at compile time.</Description>
     <Copyright>Copyright © 2024</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/andybakshi/Rudra</RepositoryUrl>
-    <NeutralLanguage>aa</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageTags>Runtime Expression; Expression at Runtime; Runtime Builder</PackageTags>
+    <PackageTags>Runtime Expression; Expression at Runtime; Runtime Builder; Dynamic LINQ</PackageTags>
     <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
