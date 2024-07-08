@@ -17,10 +17,14 @@
     <PackageTags>Runtime Expression; Expression at Runtime; Runtime Builder; Dynamic LINQ</PackageTags>
     <PackageReleaseNotes>First Release</PackageReleaseNotes>
     <Version>1.0.1</Version>
-    <PackageIcon></PackageIcon>
+    <PackageIcon>Rudra_icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\assets\Rudra_icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
