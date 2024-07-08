@@ -18,6 +18,8 @@
     <PackageReleaseNotes>First Release</PackageReleaseNotes>
     <Version>1.0.1</Version>
     <PackageIcon>Rudra_icon.png</PackageIcon>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>C:\Users\abhis\source\repos\Rudra\assets\Rudra.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
