@@ -134,11 +134,11 @@ List<Student> students;
 var result = students.AsQueryable().Where(filterExp).ToList();
 
 /// SQL Server
-// Using Entity Framwork
+// Using Entity Framework
 public class RudraContext : DbContext
 {
     public DbSet<Student> Students { get; set; }
-    public EDContext()
+    public RudraContext()
     {
     }
     protected override void OnConfiguring(DbContextOptionsBuilder options)
