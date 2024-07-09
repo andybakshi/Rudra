@@ -7,7 +7,7 @@
 
 ## Features
 
-- **Dynamic Expression Building**: Create expressions at runtime from human-readable strings or lists of nodes, enabling flexible and powerful querying capabilities.
+- **Dynamic Expression Building**: Create expressions at runtime from human-readable string or lists of nodes, enabling flexible and powerful querying capabilities.
 - **Integration with LINQ**: The generated expressions can be easily integrated with LINQ queries to filter collections dynamically.
 
 
