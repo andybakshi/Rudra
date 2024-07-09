@@ -52,7 +52,7 @@
 | `AND`    | Logical AND         | `a AND b`   |
 | `OR`     | Logical OR          | `a OR b`    |
 | `&&`     | Logical AND         | `a && b`    |
-| `||`   | Logical OR          | `a || b`  |
+| `\|\|`   | Logical OR          | `a \|\| b`  |
 
 ## Installation
 
