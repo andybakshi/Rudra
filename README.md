@@ -183,7 +183,7 @@ string query = "GraduationDate > '2021-05-01'";
 
 ## License
 
-Copyright (c) [2024] [Rudra]
+Copyright (c) 2024 Abhishek Bakshi
 
 Rudra is licensed under the MIT License. See the [LICENSE](./LICENSE.txt) file for details.
 
