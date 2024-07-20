@@ -16,7 +16,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>Runtime; Expression; Expression-Builder; Dynamic; LINQ; Dynamic-Query; LINQ-helper; dynamic-query-generation; runtime-expression-builder</PackageTags>
     <PackageReleaseNotes>First Release</PackageReleaseNotes>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageIcon>Rudra_icon.png</PackageIcon>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>C:\Users\abhis\source\repos\Rudra\assets\Rudra.snk</AssemblyOriginatorKeyFile>
