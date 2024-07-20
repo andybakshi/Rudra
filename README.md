@@ -7,7 +7,10 @@
 
 ## Features
 
-- **Dynamic Expression Building**: Create expressions at runtime from human-readable string or lists of nodes, enabling flexible and powerful querying capabilities.
+- **Dynamic Expression Building**: Create expressions at runtime from human-readable string or list of nodes, enabling flexible and powerful querying capabilities.
+
+- **Dynamic Type Handling**: Supports dynamic type checking and allows for implicit and explicit casting of field datatypes. This feature ensures that any comparable types can be processed without hard-coded type logic.
+
 - **Integration with LINQ**: The generated expressions can be easily integrated with LINQ queries to filter collections dynamically.
 
 
@@ -95,6 +98,8 @@ public class Student
     public decimal? TuitionBalance { get; set; }
     public DateTime? GraduationDate { get; set; }
     public bool IsInternational { get; set; }
+    public decimal StandardGPA { get; set; }
+    public int CreditsEarned { get; set; }
 }
 ```
 #### Query Definition
@@ -156,6 +161,10 @@ using (var db = new RudraContext())
 
 #### Dynamic Query Examples
 ```csharp
+// Compare decimal? with int fields, it will cast int dynamically to decimal? to work on all scenarios
+// CreditsEarned - int field
+// TuitionBalance - decimal? field
+string query = "CreditsEarned > TuitionBalance";
 
 // Logical AND (Students who are international or have a GPA percentage less than 60%)
 string query = "IsInternational = true OR GPA * 10 < 60";
