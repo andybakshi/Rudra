@@ -441,17 +441,18 @@ namespace Rudra.Core
                 "-" => Expression.Subtract(leftExpression, rightExpression),
                 "*" => Expression.Multiply(leftExpression, rightExpression),
                 "/" => Expression.Divide(leftExpression, rightExpression),
+                "%" => Expression.Modulo(leftExpression, rightExpression),
                 ">" => Expression.GreaterThan(leftExpression, rightExpression),
                 ">=" => Expression.GreaterThanOrEqual(leftExpression, rightExpression),
                 "<" => Expression.LessThan(leftExpression, rightExpression),
                 "<=" => Expression.LessThanOrEqual(leftExpression, rightExpression),
                 "==" => Expression.Equal(leftExpression, rightExpression),
+                "=" => Expression.Equal(leftExpression, rightExpression),
                 "!=" => Expression.NotEqual(leftExpression, rightExpression),
                 "AND" => Expression.AndAlso(leftExpression, rightExpression),
                 "OR" => Expression.OrElse(leftExpression, rightExpression),
                 "&&" => Expression.AndAlso(leftExpression, rightExpression),
                 "||" => Expression.OrElse(leftExpression, rightExpression),
-                "=" => Expression.Equal(leftExpression, rightExpression),
                 _ => throw new NotSupportedException($"The binary operator '{op}' is not supported")
             };
         }
